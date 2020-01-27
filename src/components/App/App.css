@@ -1,3 +1,13 @@
 .App {
   text-align: center;
 }
+
+.serif-type {
+	font-family: 'Roboto Slab', serif;
+}
+.mono-type {
+	font-family: 'Roboto Mono', monospace;
+}
+.narrow-type {
+	font-family: 'Roboto Condensed', sans-serif;
+}
