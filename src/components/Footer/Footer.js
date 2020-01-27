@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
 	return (
 		<footer>
-			<p>Copyright <span class='narrow-type'>&copy;</span> 2019 Zacharia Lutz. All Rights Reserved.</p>
+			<p>Copyright <span className='narrow-type'>&copy;</span> 2019 Zacharia Lutz. All Rights Reserved.</p>
 			<p>
 				<Link to={'/info'}>
 					About this Application

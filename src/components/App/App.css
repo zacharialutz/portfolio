@@ -1,13 +1,195 @@
 .App {
-  text-align: center;
+  display: flex;
+	flex-direction: column;
+	font-size: 17px;
+	text-align: center;
+	background-color: rgb(25, 25, 25);
+	color: #261D2B;
 }
 
-.serif-type {
+.serif-type, h1, section h2 {
 	font-family: 'Roboto Slab', serif;
 }
-.mono-type {
+.mono-type, nav, footer, section a {
 	font-family: 'Roboto Mono', monospace;
 }
-.narrow-type {
+.narrow-type, h2.hero h3 {
 	font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #D68B00
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	list-style: none;
+	align-items: center;
+	padding: 0;
+	margin: 12px auto;
+	max-width: 768px;
+}
+nav a {
+	color: #609E7D
+}
+nav a.current {
+	color: #80D1A7;
+}
+nav a:hover {
+	color: rgb(161, 231, 195);
+}
+
+header {
+	margin: 43px auto 0;
+}
+
+h1 {
+	margin: 12px 0 256px;
+	letter-spacing: 1px;
+	font-size: 36px;
+	color: rgb(235, 235, 235);
+	text-shadow: 1px 1px gray;
+}
+h2 {
+	font-size: 28px;
+}
+h2.hero {
+	margin-top: 30%;
+	letter-spacing: 2px;
+	color: rgb(220, 220, 220);
+}
+h3 {
+	letter-spacing: 2px;
+	margin: 24px 0 9px;
+}
+
+section {
+	padding: 43px 3% 6%;
+	line-height: 1.9;
+}
+section#about {
+	background-color: #CCC5B8;
+	padding-top: 1%;
+}
+section#projects {
+	background-color: #BDB7AE;
+}
+section#contact {
+	background-color: #261D2B;
+}
+
+#projects h2 {
+	text-decoration: underline;
+}
+
+.project-links {
+	margin: 48px 10% 56px;
+}
+.project-links a {
+	display: block;
+	border: 2px solid #261D2B;
+	border-radius: 6px;
+	margin: 10px auto;
+	padding: 2px 0 4px;
+	max-width: 400px;
+}
+.live-link {
+	background-color: #261D2B;
+}
+.github-link {
+	color: #261D2B;
+}
+
+.screenshot {
+	width: 95%;
+	max-width: 480px;
+	box-shadow: 5px 5px gray;
+	margin: 2% auto;
+}
+
+
+
+#contact {
+	display: block;
+	text-align: left;
+	height: 86.75vh;
+}
+#contact h2 {
+	color: #CCC5B8;
+	margin: 30px 0 10px;
+	text-decoration: underline;
+}
+#contact h3 {
+	color: #CCC5B8;
+}
+.contact-spacer {
+	margin-top: 36px;
+}
+.contact-indent {
+	margin-left: 6%;
+}
+
+.social-list {
+	list-style: none;
+	align-items: center;
+	padding: 0;
+}
+.social-list li {
+	padding: 3px 0;
+}
+.social-link {
+	padding: 4px 0;
+	display: flex;
+	align-content: center;
+}
+.social-logo {
+	width: 32px;
+	margin-right: 4%;
+}
+
+footer {
+	color: #A19B91;
+	margin: 0 auto;
+	width: 365px;
+}
+footer p {
+	margin: 12px auto 14px;
+}
+
+
+
+.recenter {
+	text-align: center;
+}
+
+@media only screen and (min-width: 728px) {
+
+	header {
+		max-width: 666px;
+	}
+
+	h1 {
+		font-size: 42px;
+	}
+	h2 {
+		font-size: 36px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+
+	p {
+		max-width: 74%;
+	}
+	#projects p {
+		max-width: 55%;
+	}
+
+	.contact-indent {
+		margin-left: 25%;
+	}
 }

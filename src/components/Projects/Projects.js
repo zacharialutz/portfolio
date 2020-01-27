@@ -31,7 +31,7 @@ export default function Projects() {
 				name={'Spaced Repetition'}
 				img={''}
 				desc={'Use the spaced repetition technique to learn twenty Latin vocabulary words.'}
-				credit={'Glaiza Wagner and Zacharia Lutz'}
+				credit={'Zacharia Lutz and Glaiza Wagner'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://gz-spaced-repetition-app.now.sh/'}
 				clientGit={'https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_client'}

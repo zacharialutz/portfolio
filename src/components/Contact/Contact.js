@@ -13,12 +13,12 @@ export default function Contact() {
 					class='contact-info'
 					href='mailto:zacharia.lutz@gmail.com'
 				>
-					> zacharia.lutz@gmail.com
+					zacharia.lutz@gmail.com
 			</a>
 			</address>
 
 			<h3>Find me at:</h3>
-			<ul class='social-list'>
+			<ul className='social-list'>
 				<Social
 					name={'LinkedIn'}
 					url={'https://www.linkedin.com/in/zacharia-lutz'}
