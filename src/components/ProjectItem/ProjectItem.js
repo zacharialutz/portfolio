@@ -1,8 +1,6 @@
 import React from 'react';
 import './ProjectItem.css';
 
-import { Link } from 'react-router-dom';
-
 export default function ProjectItem(props) {
 	return (
 		<div className='project-item'>
@@ -22,15 +20,27 @@ export default function ProjectItem(props) {
 				{props.tech}
 			</p>
 			<div className='project-links'>
-				<Link to={props.liveUrl}>
+				<a
+					href={props.liveUrl}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<span className='live-link project-btn'>> Live App</span>
-				</Link>
-				<Link to={props.clientGit}>
+				</a>
+				<a
+					href={props.clientGit}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<span className='github-link project-btn'>> Client GitHub</span>
-				</Link>
-				<Link to={props.serverGit}>
+				</a>
+				<a
+					href={props.serverGit}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
 					<span className='github-link project-btn'>> Server GitHub</span>
-				</Link>
+				</a>
 			</div>
 		</div>
 	)

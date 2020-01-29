@@ -1,5 +1,4 @@
 import React from 'react';
-import { Route, Switch, withRouter } from 'react-router-dom';
 import './App.css';
 
 import Nav from '../Nav/Nav';
@@ -26,4 +25,4 @@ class App extends React.Component {
   }
 }
 
-export default withRouter(App);
+export default App;
