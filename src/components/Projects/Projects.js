@@ -20,7 +20,7 @@ export default function Projects() {
 			<ProjectItem
 				name={'Calliope'}
 				img={''}
-				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives from a database of thousands of wordds.'}
+				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives from a database of thousands of words.'}
 				credit={'Zacharia Lutz'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://calliope.now.sh/'}

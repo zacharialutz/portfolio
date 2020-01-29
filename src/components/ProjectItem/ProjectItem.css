@@ -1,0 +1,38 @@
+#projects h2 {
+	text-decoration: underline;
+}
+
+.project-item p {
+	margin: 0 auto;
+}
+
+.project-links {
+	margin: 36px 10% 46px;
+	display: flex;
+	flex-direction: column;
+}
+
+.project-links .project-btn {
+	display: block;
+	border: 2px solid var(--color-dark);
+	border-radius: 6px;
+	margin: 7px auto;
+	padding: 4px 0 8px;
+	height: 42px;
+	width: 300px;
+}
+
+.live-link {
+	background-color: var(--color-dark);
+}
+.live-link:hover {
+	background-color: rgb(69, 57, 75);
+	border-color: rgb(69, 57, 75);
+}
+
+.github-link {
+	color: #261D2B;
+}
+.github-link:hover {
+	background-color: rgb(141, 138, 143);
+}

@@ -1,0 +1,44 @@
+#contact {
+	display: block;
+	
+	height: 86.75vh;
+}
+
+.contact-shift {
+	padding-left: 15%;
+	text-align: left;
+}
+
+#contact h2 {
+	color: #CCC5B8;
+	margin: 30px 0 10px;
+	text-decoration: underline;
+}
+#contact h3 {
+	color: #CCC5B8;
+}
+
+.contact-spacer {
+	margin-top: 36px;
+}
+.contact-indent {
+	margin-left: 6%;
+}
+
+.social-list {
+	list-style: none;
+	align-items: center;
+	padding: 0;
+}
+.social-list li {
+	padding: 3px 0;
+}
+.social-link {
+	padding: 4px 0;
+	display: flex;
+	align-content: center;
+}
+.social-logo {
+	width: 32px;
+	margin-right: 4%;
+}

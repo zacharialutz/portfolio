@@ -1,17 +1,10 @@
 import React from 'react';
 import './Footer.css'
 
-import { Link } from 'react-router-dom';
-
 export default function Footer() {
 	return (
 		<footer>
-			<p>Copyright <span className='narrow-type'>&copy;</span> 2019 Zacharia Lutz. All Rights Reserved.</p>
-			<p>
-				<Link to={'/info'}>
-					About this Application
-				</Link>
-			</p>
+			<p>Copyright <span className='narrow-type'>&copy;</span> 2020 Zacharia Lutz. All Rights Reserved.</p>
 		</footer>
 	)
 }

@@ -5,8 +5,9 @@ import './App.css';
 import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Main from '../Main/Main';
-import Info from '../Info/Info';
+import About from '../About/About';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 class App extends React.Component {
   render() {
@@ -15,10 +16,9 @@ class App extends React.Component {
         <Nav />
         <Header />
         <main>
-          <Switch>
-            <Route exact path={'/'} component={Main} />
-            <Route exact path={'/info'} component={Info} />
-          </Switch>
+          <About />
+          <Projects />
+          <Contact />
         </main>
         <Footer />
       </div>

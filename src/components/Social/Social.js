@@ -1,20 +1,19 @@
 import React from 'react';
-import './Social.css'
+import './Social.css';
+
+import { Link } from 'react-router-dom';
 
 export default function Social(props) {
 	return (
 		<li>
-			<a
-				class='social-link'
-				href={props.url}
-			>
+			<Link to={props.url} className='link-underline'>
 				<img
-					class='social-logo'
+					className='social-logo'
 					src={require(`../../images/${props.img}`)}
 					alt={props.name}
 				/>
-				> {props.name}
-			</a>
-		</li>
+				{`> ${props.name}`}
+			</Link>
+		</li >
 	)
 }
