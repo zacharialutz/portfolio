@@ -9,9 +9,8 @@ export default function Projects() {
 			<h2>&nbsp;PROJECTS&nbsp;</h2>
 			<ProjectItem
 				name={'Bookmark Organizer'}
-				img={''}
+				img={'screenshot_bookmark-organizer.png'}
 				desc={'Reorganize, search, filter, and access your bookmarks without having to go through the poor user experience of built-in browser bookmark managers.'}
-				credit={'Keisuke Isobe, Zayar Khin, Michael Kirsch, Zacharia Lutz'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://bookmark-organizer.now.sh'}
 				clientGit={'https://github.com/thinkful-ei-heron/Group5-Capstone3-Client'}
@@ -19,9 +18,8 @@ export default function Projects() {
 			/>
 			<ProjectItem
 				name={'Calliope'}
-				img={''}
-				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives from a database of thousands of words.'}
-				credit={'Zacharia Lutz'}
+				img={'screenshot_calliope.png'}
+				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives pulled from a database of thousands of words. It can help prompt ideas for writing or artwork, and be quite entertaining in general.'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://calliope.now.sh/'}
 				clientGit={'https://github.com/zacharialutz/calliope_client'}
@@ -29,9 +27,8 @@ export default function Projects() {
 			/>
 			<ProjectItem
 				name={'Spaced Repetition'}
-				img={''}
+				img={'screenshot_spaced-repetition.png'}
 				desc={'Use the spaced repetition technique to learn twenty Latin vocabulary words.'}
-				credit={'Zacharia Lutz and Glaiza Wagner'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://gz-spaced-repetition-app.now.sh/'}
 				clientGit={'https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_client'}

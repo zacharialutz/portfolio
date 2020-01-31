@@ -3,3 +3,8 @@
 	margin: 0 auto;
 	text-align: left;
 }
+
+.more-link {
+	color: rgb(65, 65, 65);
+	text-decoration: underline;
+}

@@ -7,14 +7,11 @@ export default function ProjectItem(props) {
 			<h3>{props.name}</h3>
 			<img
 				className='screenshot'
-				// src={require(`../../images/${props.img}`)}
+				src={require(`../../images/${props.img}`)}
 				alt={`screenshot of ${props.name}`}
 			/>
 			<p className='recenter'>
 				{props.desc}
-			</p>
-			<p className='recenter'>
-				{props.credit}
 			</p>
 			<p className='narrow-type'>
 				{props.tech}

@@ -1,20 +1,12 @@
 import React from 'react';
 import './Nav.css'
 
-import { Link } from 'react-router-dom';
-
 export default function Nav() {
-	return(
+	return (
 		<nav>
-			<Link to='/' className='btn-nav'>
-				About
-			</Link>
-			<Link to='/' className='btn-nav'>
-				Projects
-			</Link>
-			<Link to='/' className='btn-nav'>
-				Contact
-			</Link>
+			<a href='#about'>about</a>
+			<a href='#projects'>projects</a>
+			<a href='#contact'>contact</a>
 		</nav>
 	)
 }

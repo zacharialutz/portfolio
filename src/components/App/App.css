@@ -1,5 +1,5 @@
 :root {
-	--color-dark: #261D2B;
+	--color-dark: rgb(44, 34, 49);
 	--color-ends: rgb(25, 25, 25);
 }
 
@@ -64,7 +64,7 @@ section#projects {
 	background-color: #BDB7AE;
 }
 section#contact {
-	background-color: #261D2B;
+	background-color: var(--color-dark);
 }
 
 
@@ -88,7 +88,7 @@ section#contact {
 		max-width: 74%;
 	}
 	#projects p {
-		max-width: 55%;
+		max-width: 75%;
 	}
 
 	.contact-shift {
