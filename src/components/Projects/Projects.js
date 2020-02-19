@@ -10,7 +10,8 @@ export default function Projects() {
 			<ProjectItem
 				name={'Bookmark Organizer'}
 				img={'screenshot_bookmark-organizer.png'}
-				desc={'Reorganize, search, filter, and access your bookmarks without having to go through the poor user experience of built-in browser bookmark managers.'}
+				role={'Design Lead'}
+				desc={'Reorganize, search, filter, save and access your browser bookmarks without having to go through the poor user experience of built-in bookmark managers.'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://bookmark-organizer.now.sh'}
 				clientGit={'https://github.com/thinkful-ei-heron/Group5-Capstone3-Client'}
@@ -19,20 +20,19 @@ export default function Projects() {
 			<ProjectItem
 				name={'Calliope'}
 				img={'screenshot_calliope.png'}
-				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives pulled from a database of thousands of words. It can help prompt ideas for writing or artwork, and be quite entertaining in general.'}
+				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives pulled from a database of thousands of words. It can help prompt ideas for writing or artwork, or provide entertainment on its own.'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://calliope.now.sh/'}
 				clientGit={'https://github.com/zacharialutz/calliope_client'}
 				serverGit={'https://github.com/zacharialutz/calliope_server'}
 			/>
 			<ProjectItem
-				name={'Spaced Repetition'}
-				img={'screenshot_spaced-repetition.png'}
-				desc={'Use the spaced repetition technique to learn twenty Latin vocabulary words.'}
-				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
-				liveUrl={'https://gz-spaced-repetition-app.now.sh/'}
-				clientGit={'https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_client'}
-				serverGit={'https://github.com/thinkful-ei-heron/spaced-repetition_Zac-Glaiza_server'}
+				name={'Aerobots VR: Robotic Aerial Combat'}
+				img={'screeenshot_aerobots-vr.png'}
+				role={'Art Director'}
+				desc={'Fly with complete freedom as one of six different robot characters and battle your enemies admist a near-future cyberpunk dystopia in this fast-paced multiplayer shooter for virtual reality.'}
+				tech={'Unreal Engine 4'}
+				steamUrl={'https://store.steampowered.com/app/967750/Aerobots_VR'}
 			/>
 		</section>
 	)

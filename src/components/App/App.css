@@ -34,13 +34,6 @@ a {
 	text-decoration: underline;
 }
 
-.screenshot {
-	width: 95%;
-	max-width: 480px;
-	box-shadow: 5px 5px gray;
-	margin: 2% auto;
-}
-
 
 
 h2 {
@@ -48,7 +41,7 @@ h2 {
 }
 h3 {
 	letter-spacing: 2px;
-	margin: 24px 0 9px;
+	margin: 24px 0 0;
 }
 
 section {

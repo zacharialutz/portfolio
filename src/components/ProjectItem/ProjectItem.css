@@ -2,10 +2,26 @@
 	text-decoration: underline;
 }
 
+h4 {
+	margin-top: 0;
+	font-size: 18px;
+}
+
 .project-item p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+
+
+.screenshot {
+	width: 95%;
+	max-width: 480px;
+	box-shadow: 5px 5px gray;
+	margin: 1% auto;
+}
+
+
 
 .project-links {
 	margin: 36px auto;
