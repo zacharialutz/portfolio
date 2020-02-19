@@ -18,7 +18,7 @@ export default function Projects() {
 				serverGit={'https://github.com/thinkful-ei-heron/Group5-Capstone3-Server'}
 			/>
 			<ProjectItem
-				name={'Calliope'}
+				name={'Calliope: The Muse of Writing'}
 				img={'screenshot_calliope.png'}
 				desc={'Automatically generate paragraph-length stories with nouns, verbs, and adjectives pulled from a database of thousands of words. It can help prompt ideas for writing or artwork, or provide entertainment on its own.'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
