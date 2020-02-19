@@ -18,25 +18,28 @@ export default function ProjectItem(props) {
 			</p>
 			<div className='project-links'>
 				<a
+					className='live-link project-btn'
 					href={props.liveUrl}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<span className='live-link project-btn'>> Live App</span>
+					> Live App
 				</a>
 				<a
+					className='github-link project-btn'
 					href={props.clientGit}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<span className='github-link project-btn'>> Client GitHub</span>
+					> Client GitHub
 				</a>
 				<a
+					className='github-link project-btn'
 					href={props.serverGit}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					<span className='github-link project-btn'>> Server GitHub</span>
+					> Server GitHub
 				</a>
 			</div>
 		</div>
