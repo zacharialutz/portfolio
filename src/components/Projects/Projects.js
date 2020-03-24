@@ -30,7 +30,7 @@ export default function Projects() {
 				name={'Aerobots VR: Robotic Aerial Combat'}
 				img={'screeenshot_aerobots-vr.png'}
 				role={'Art Director'}
-				desc={'Fly with complete freedom as one of six different robot characters and battle your opponents admist a near-future cyberpunk dystopia in this fast-paced multiplayer shooter built from the ground up for virtual reality.'}
+				desc={'Fly with complete freedom as one of six different robot characters and battle your opponents admist a near-future cyberpunk dystopia in this fast-paced multiplayer shooter built from the ground up for virtual reality. Created by Northwoods Interactive.'}
 				tech={'Unreal Engine 4'}
 				steamUrl={'https://store.steampowered.com/app/967750/Aerobots_VR'}
 			/>
