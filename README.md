@@ -16,4 +16,4 @@ This section has my email and links to my LinkedIn and GitHub profiles.
 
 ## Technology
 
-Created using HTML5, CSS3, JavaScript, and React.
+Created using HTML5, CSS3, and React.js
