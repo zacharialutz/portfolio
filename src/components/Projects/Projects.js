@@ -20,7 +20,7 @@ export default function Projects() {
 			<ProjectItem
 				name={'Calliope: The Muse of Writing'}
 				img={'screenshot_calliope.png'}
-				desc={'Automatically generate paragraph-length stories with the click of a button using a system that pulls and arranges nouns, verbs, and adjectivesfrom a database of thousands of words. It can help prompt ideas for writing or artwork, or provide entertainment on its own.'}
+				desc={'Automatically generate paragraph-length stories with the click of a button using a system that pulls and arranges nouns, verbs, and adjectives from a database of thousands of words. It can help prompt ideas for writing or artwork, or provide entertainment on its own.'}
 				tech={'HTML5, CSS3, JavaScript, React, Node, Express, PostgreSQL'}
 				liveUrl={'https://calliope.now.sh/'}
 				clientGit={'https://github.com/zacharialutz/calliope_client'}
